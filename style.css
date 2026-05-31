@@ -1,0 +1,215 @@
+body {
+            margin: 0px;
+
+
+        }
+        ul{
+            margin: 0px;
+            padding: 0px;
+
+        }
+        
+
+        /*header */
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:0px 50px;
+
+        }
+
+        img.logo-image{
+
+            height: 100px;
+        }
+        .links-box ul{
+            display:flex;
+            list-style-type: none;
+            gap:30px;
+        }
+        .links-box ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        .links-box ul li a{
+            color: blue;
+            text-decoration: underline;
+        }
+
+        @media(max-width:768px){
+            header{
+            flex-wrap:wrap;
+            justify-content : center;
+            align-items: center;
+            padding:0px 15px;
+
+        }
+        .links-box ul{
+            margin-bottom: 20px;
+        }
+            
+    }
+        
+
+
+        /* hero section */
+
+        #hero {
+            /*background-color: teal;*/
+            background-image: url(background\ images.jpg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 50px;
+            text-align: center;
+
+
+
+        }
+
+        h1.sec-title {
+
+            text-align: center;
+        }
+
+
+
+
+.cta-buttons{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.btn{
+  padding:18px 34px;
+  border-radius:60px;
+  text-decoration:none;
+  font-size:16px;
+  font-weight:600;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  transition:0.35s ease;
+  letter-spacing:0.5px;
+}
+
+/* Consultation Button */
+.consultation-btn{
+  background:#c8b29d;
+  color:#fff;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.consultation-btn:hover{
+  transform:translateY(-4px);
+  background:#b89d84;
+}
+
+/* Portfolio Button */
+.portfolio-btn{
+  background:#fff;
+  color:#222;
+  border:2px solid #222;
+}
+
+.portfolio-btn:hover{
+  background:#222;
+  color:#fff;
+  transform:translateY(-4px);
+}
+
+
+
+
+
+        @media(max-width:768px){
+             #hero{
+                padding:50px 15px;
+                text-align: center;
+             }
+        }
+
+         /* about section */
+        #about-box{
+            display: flex;
+            padding: 0px 50px;
+            gap: 30px
+        }
+
+        #about-text-box {
+            width: 50%;
+        }
+
+        #about-image-box {
+            width: 50%;
+        }
+
+        img#about-image {
+            width: 100%;
+        }
+         @media(max-width:768px){
+           #about-box{
+            padding: 0px 15px;
+            flex-wrap:wrap;
+           }
+        
+             #about-text-box,#about-image-box{
+                width: 100%
+            }
+            #about-text-box {
+            text-align: justify;
+         }
+        }
+
+        /* services section */
+
+        #services-box{
+          
+            padding: 0px 50px;
+            display:flex;
+            gap:30px;                          
+            
+        }
+        .service-box{                                                                                                                                                                                                          
+            width:33.33%;
+        }
+        img.service-image{
+            width:100%;
+        }
+        @media(max-width:768px){
+          #services-box{
+          
+            padding: 0px 15px;
+            flex-wrap: wrap;
+          }
+            .service-box{                                                                                                                                                                                                          
+            width:100%;}
+            }
+        /*products section */
+
+        #products-box{
+
+            padding: 0px 50px;
+            display:flex;
+            gap:30px;
+        }
+        .product-box{ 
+        
+            width:25%;
+        }
+        img.product-image{
+            width:100%;
+        }
+     @media(max-width:768px){
+          #products-box{
+          
+            padding: 0px 15px;
+            flex-wrap: wrap;
+          }
+            .product-box{                                                                                                                                                                                                          
+            width:100%;}
+            }
+           
